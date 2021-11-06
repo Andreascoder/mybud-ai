@@ -1,0 +1,55 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="XkV!]:jG@rgeX[S3(m4/" x="406" y="-319"><field name="NAME">Gesture.FreeFall</field><statement name="HANDLER"><block type="device_show_leds" id="m0J74tK8ogO,2(pe3Ppd"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_pause" id="adxi-gob8eETQNHxgqG#"><value name="pause"><shadow type="timePicker" id="|~cqIl%~E]8d#mU3#9B~"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="nI/=9E^?o.j:mtfGx`{#"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="OyO~Iuju/kgJ_Iw2LpR_"><value name="pause"><shadow type="timePicker" id="H?-FaCYvX}ir^fk;zLWO"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="1)p^EZ,|m2z7%Tg/YM2E"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="O7G}n0U2HTAnT#p{3w=k" x="786" y="-131"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id=":}/R[o?||9$joQ:=/f|z"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="EyHBy=IT41v%?*KSj)QJ"><value name="pause"><shadow type="timePicker" id="TW_iY(/eP5El%nBoa#lX"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="oSHz[X4u{bU{p3#u4PTI"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></statement></block><block type="pxt-on-start" id="mu([n-A2.Vsg)ZcUPd]}" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="XTT4#kFsJ{2L|U|~ik|m"><value name="text"><shadow type="text" id="c{|7pCL]g[kBM1of7-cv"><field name="TEXT">AI</field></shadow></value><next><block type="device_show_leds" id="QtsUONDP_fYfE=2moVZY"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="_W=+*6En~9*EpFBv^tkg" x="654" y="508"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="6K`}IkmEB2i`??B?:]@."><value name="text"><shadow type="text" id="a#=ywy(=BRm:A5La.n|4"><field name="TEXT">Made by Andreas</field></shadow></value></block></statement></block><block type="every_interval" id="uVnu{FAqAB_hMGR%x0v*" x="23" y="609"><value name="interval"><shadow type="longTimePicker" id="*PvravP9?9yVtJj9+f{f"><field name="ms">3500</field></shadow></value><statement name="HANDLER"><block type="device_show_leds" id="p_O``Tl#+UXvs.;GQA?X"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="pTt-12Nna5VA};j6^6(h"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="*f_!fB#rRfdb+7M463OK" x="517" y="678"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="7|iV0ZGZJJw[oJ|Js9FZ"><value name="text"><shadow type="text" id="~{/z(T1nB{]%^l%umzB]"><field name="TEXT">Hello, And welcome to MyBud AI!</field></shadow></value></block></statement></block><block type="device_button_event" id="xO3~:DB@0J=2TZwf0~Wm" x="710" y="867"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id=":z72bZ|v`=EW,3b79)xw"><field name="LEDS">`
+        # . . . # 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></xml>
